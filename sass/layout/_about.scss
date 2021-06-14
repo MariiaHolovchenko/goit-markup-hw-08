@@ -3,12 +3,14 @@
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+
+  &_item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }
-.about__menu_item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
-}
+
 .label-about {
   position: relative;
 }
