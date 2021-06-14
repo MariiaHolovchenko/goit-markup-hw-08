@@ -1,9 +1,19 @@
 .about__title {
-  margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
+  @media screen and (min-width: 320px) {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.17;
+  }
+  @media screen and (min-widht: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 .services__menu_item_title {
   margin-bottom: 10px;

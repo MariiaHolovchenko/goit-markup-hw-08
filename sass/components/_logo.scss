@@ -1,3 +1,11 @@
 .logo-left {
   color: var(--accent-color);
 }
+.header-nav__logo {
+  margin-right: 93px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.19;
+  color: var(--nav-link-color);
+}

@@ -1,0 +1,122 @@
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+
+    position: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 500ms linear, visibility 500ms linear;
+
+    &__container {
+      position: relative;
+      padding: 40px 0;
+      padding-left: 24px;
+    }
+
+    &__close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      background: #ffffff;
+    }
+    &__close-btn_icon {
+      width: 40px;
+      height: 40px;
+    }
+    &__nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 1.17;
+      letter-spacing: 0.02em;
+
+      color: #212121;
+    }
+    &__nav-item {
+      padding-bottom: 32px;
+    }
+  }
+
+  .mobile-menu__nav-item:hover,
+  .mobile-menu__nav-item:focus,
+  .mobile-menu__nav-link:hover,
+  .mobile-menu__nav-link:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+  .mobile-menu__close-btn:hover,
+  .mobile-menu__close-btn:focus,
+  .mobile-menu__close-btn_icon:hover,
+  .mobile-menu__close-btn_icon:focus {
+    fill: var(--accent-color);
+  }
+  .mabile-container_contact {
+    padding-top: 302px;
+  }
+  .mobile-container_contact_item-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+  .mobile-container_contact_item-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+  }
+  .mobile-container_contact_social .mobile-container_contact_social-item {
+    display: inline;
+  }
+  .mobile-container_contact_social
+    .mobile-container_contact_social-item:not(:last-child) {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    padding-right: 10px;
+  }
+  .mobile-container_contact_social-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+  .mobile-container_contact_social {
+    text-align: center;
+    padding-top: 64px;
+  }
+  .mobile-container_contact_social-item {
+    margin-right: 20px;
+  }
+  .is-open {
+    position: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}

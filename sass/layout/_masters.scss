@@ -27,3 +27,43 @@
     }
   }
 }
+
+@media screen and(min-width: 480px) {
+  .masters-img {
+    text-align: center;
+    width: 450px;
+    height: 460px;
+  }
+  .masters__menu {
+    margin-top: 0px;
+  }
+  // .masters__menu_item {
+  //   width: 96wv;
+  // }
+}
+@media screen and(min-width: 768px) {
+  .masters-img {
+    text-align: center;
+    width: 354px;
+    height: 374px;
+  }
+  .masters__menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+}
+@media screen and(min-width: 1200px) {
+  .masters-img {
+    text-align: center;
+    width: 270px;
+    height: 260px;
+  }
+  .masters__menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+}
