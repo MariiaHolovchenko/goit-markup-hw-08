@@ -667,6 +667,57 @@ body {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .header-conteiner__contact_item_link {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    line-height: calc(14 / 12);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #ececec;
+  }
+  .header-container__contact {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-left: 84px;
+  }
+  .mail-icon {
+    height: 10px;
+    width: 14px;
+    margin-right: 10px;
+  }
+  .tel-icon {
+    height: 14px;
+    width: 10px;
+    margin-right: 10px;
+  }
+  .header-conteiner__contact_item_link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: block;
+    display: flex;
+  }
+  .tel {
+    position: relative;
+    right: 15px;
+  }
+}
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
