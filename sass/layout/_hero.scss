@@ -11,13 +11,13 @@
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url(../images/hero/jpg/bg-mobile.jpg);
+    url("../images/hero/jpg/bg-mobile.jpg");
   background-image: linear-gradient(
       to right,
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url(../images/hero/webp/bg-mobile.webp);
+    url("../images/hero/webp/bg-mobile.webp");
   padding-top: 118px;
   padding-bottom: 118px;
 
@@ -29,13 +29,13 @@
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url(../images/hero/jpg/bg-mobile@2x.jpg);
+      url("../images/hero/jpg/bg-mobile@2x.jpg");
     background-image: linear-gradient(
         to right,
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url(../images/hero/webp/bg-mobile@2x.webp);
+      url("../images/hero/webp/bg-mobile@2x.webp");
   }
   @media screen and(min-width: 768px) {
     background-image: linear-gradient(
@@ -43,13 +43,13 @@
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url(../images/hero/jpg/bg-tablet.jpg);
+      url("../images/hero/jpg/bg-tablet.jpg");
     background-image: linear-gradient(
         to right,
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url(../images/hero/webp/bg-tablet.webp);
+      url("../images/hero/webp/bg-tablet.webp");
     padding-top: 118px;
     padding-bottom: 118px;
 
@@ -61,14 +61,13 @@
           var(--overlay-hero-bg-color),
           var(--overlay-hero-bg-color)
         ),
-        url(../images/hero/jpg/bg-tablet@2x.jpg);
+        url("../images/hero/jpg/bg-tablet@2x.jpg");
       background-image: linear-gradient(
           to right,
-          rgba(47, 48, 58, 0.4),
           var(--overlay-hero-bg-color),
           var(--overlay-hero-bg-color)
         ),
-        url(../img/hero/webp/bg-tablet@2x.webp);
+        url("../images/hero/webp/bg-tablet@2x.webp");
     }
   }
   @media screen and(min-width: 1200px) {
@@ -77,13 +76,13 @@
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url(../images/hero/jpg/bg-desktop.jpg);
+      url("../images/hero/jpg/bg-desktop.jpg");
     background-image: linear-gradient(
         to right,
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url(../images/hero/webp/bg-desktop.webp);
+      url("../images/hero/webp/bg-desktop.webp");
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
@@ -97,13 +96,13 @@
           var(--overlay-hero-bg-color),
           var(--overlay-hero-bg-color)
         ),
-        url(../images/hero/jpg/bg-desktop@2x.jpg);
+        url("../images/hero/jpg/bg-desktop@2x.jpg");
       background-image: linear-gradient(
           to right,
           var(--overlay-hero-bg-color),
           var(--overlay-hero-bg-color)
         ),
-        url(../images/hero/webp/bg-desktop@2x.webp);
+        url("../images/hero/webp/bg-desktop@2x.webp");
     }
   }
 }

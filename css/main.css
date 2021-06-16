@@ -331,10 +331,19 @@ body {
 
 .masterd__title {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 1200px) {
+  .masterd__title {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 10px;
+  }
 }
 
 .about-portfolio__title {
@@ -777,23 +786,23 @@ body {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/jpg/bg-mobile.jpg);
-  background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/webp/bg-mobile.webp);
+  background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/jpg/bg-mobile.jpg");
+  background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/webp/bg-mobile.webp");
   padding-top: 118px;
   padding-bottom: 118px;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/jpg/bg-mobile@2x.jpg);
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/webp/bg-mobile@2x.webp);
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/jpg/bg-mobile@2x.jpg");
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/webp/bg-mobile@2x.webp");
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/jpg/bg-tablet.jpg);
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/webp/bg-tablet.webp);
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/jpg/bg-tablet.jpg");
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/webp/bg-tablet.webp");
     padding-top: 118px;
     padding-bottom: 118px;
   }
@@ -801,15 +810,15 @@ body {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/jpg/bg-tablet@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../img/hero/webp/bg-tablet@2x.webp);
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/jpg/bg-tablet@2x.jpg");
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/webp/bg-tablet@2x.webp");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/jpg/bg-desktop.jpg);
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/webp/bg-desktop.webp);
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/jpg/bg-desktop.jpg");
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/webp/bg-desktop.webp");
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
@@ -819,8 +828,8 @@ body {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/jpg/bg-desktop@2x.jpg);
-    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url(../images/hero/webp/bg-desktop@2x.webp);
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/jpg/bg-desktop@2x.jpg");
+    background-image: linear-gradient(to right, var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/webp/bg-desktop@2x.webp");
   }
 }
 
@@ -1083,6 +1092,8 @@ body {
   top: 50%;
   right: 28px;
   transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
 }
 
 .footer-logo_link {
@@ -1155,7 +1166,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.masters__menu_item .masterd__title {
+.masterd__title {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -1164,42 +1175,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.masters__menu_item .masters__menu_description {
+.masters__menu_description {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.masters__menu {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.masters__menu .masters__menu_item {
-  flex-basis: calc(100% - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .masters__menu .masters__menu_item {
-    flex-basis: calc((100% - 30px * 2) / 2);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .masters__menu .masters__menu_item {
-    flex-basis: calc((100% - 30px * 4) / 4);
-  }
-}
-
-.masters {
-  background-color: var(--aboutus-background-color);
 }
 
 .masters__menu {
@@ -1210,62 +1190,22 @@ body {
 }
 
 .masters__menu_item {
-  background-color: var(--main-background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 120px) / 4);
-  margin-left: 30px;
+  flex-basis: calc(100% - 30px);
   margin-top: 30px;
-}
-
-.masters__menu_div {
-  padding: 30px;
-}
-
-.masters__menu_description {
-  font-size: 16px;
-  line-height: 1.19;
+  margin-left: 30px;
+  padding-bottom: 30px;
   text-align: center;
-  color: var(--secondary-text-color);
-  margin-bottom: 16px;
 }
 
-@media screen and (min-width: 480px) {
-  .masters-img {
-    text-align: center;
-    width: 450px;
-    height: 460px;
-  }
-  .masters__menu {
-    margin-top: 0px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .masters-img {
-    text-align: center;
-    width: 354px;
-    height: 374px;
-  }
-  .masters__menu {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .masters__menu_item {
+    flex-basis: calc((100% - 30px * 2) / 2);
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .masters-img {
-    text-align: center;
-    width: 270px;
-    height: 260px;
-  }
-  .masters__menu {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+  .masters__menu_item {
+    flex-basis: calc((100% - 30px * 4) / 4);
   }
 }
 
@@ -1296,12 +1236,18 @@ body {
 
 .customers__list_item {
   display: flex;
+  justify-content: center;
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100% - 30px * 2) / 2);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  .customers__list_item {
+    flex-basis: calc((100% - 30px * 2) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .customers__list_item {
     flex-basis: calc((100% - 30px * 3) / 3);
   }
@@ -1334,7 +1280,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .customers__list_link {
-    width: 226px;
+    width: 210px;
     height: 92px;
   }
 }
