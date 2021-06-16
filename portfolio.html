@@ -19,6 +19,59 @@
 <body>
     <!--HEADER-->
     <header class="header">
+        <div class="mobile-menu " data-menu>
+    
+            <div class="container mobile-menu__container ">
+                <button type="buttun" class="mobile-menu__close-btn" data-menu-close>
+                    <svg class="mobile-menu__close-btn_icon">
+                        <use href="./images/sprite.svg#icon-close-btn40px"></use>
+    
+                    </svg>
+                </button>
+    
+                <ul class="mobile-menu__nav">
+                    <li class="mobile-menu__nav-item link">
+                        <a href="" class="mobile-menu__nav-link link">Студия</a>
+                    </li>
+                    <li class="mobile-menu__nav-item link">
+                        <a href="" class="mobile-menu__nav-link link">Портфолио</a>
+                    </li>
+                    <li class="mobile-menu__nav-item link">
+                        <a href="" class="mobile-menu__nav-link link">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="mabile-container_contact">
+    
+                    <li class="mobile-container_contact_item link">
+                        <a class="mobile-container_contact_item-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                    <li class="mobile-container_contact_item link">
+                        <a class="mobile-container_contact_item-mail link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+    
+                    </li>
+                </ul>
+                <ul class="mobile-container_contact_social link">
+                    <li class="mobile-container_contact_social-item">
+                        <a class="mobile-container_contact_social-link link" href="#">Instagram</a>
+    
+    
+                    </li>
+                    <li class="mobile-container_contact_social-item">
+                        <a class="mobile-container_contact_social-link link" href="#">Twitter</a>
+    
+                    </li>
+                    <li class="mobile-container_contact_social-item">
+                        <a class="mobile-container_contact_social-link link" href="#">Facebook</a>
+    
+                    </li>
+                    <li class="mobile-container_contact_social-item">
+                        <a class="mobile-container_contact_social-link link" href="#">LinkedIn</a>
+    
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="container header-container">
             <nav class="header-nav">
                 <a class="header-nav__logo link" href="./index.html"><span class="logo-left">Web</span>Studio</a>
@@ -30,10 +83,15 @@
                         <a class="header-nav__menu_item_link link current" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="header-nav__menu_item">
-                        <a class="header-nav__menu_item_link link " href="">Контакты</a>
+                        <a class="header-nav__menu_item_link link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
+            <button type="buttun" class="header__mobile-btn" data-menu-button>
+                <svg class="header__burger-icon">
+                    <use href="./images/sprite.svg#burger-icon"></use>
+                </svg>
+            </button>
             <ul class="header-container__contact list">
                 <li class="header-container__contact_item">
                     <a class="header-conteiner__contact_item_link mail link" href="mailto:info@devstudio.com">
@@ -56,7 +114,7 @@
     <section class="portfolio-section section">
         <div class="container">
             <h1 class="visually-hidden">Навигационное меню</h1>
-            <ul class="hero-portfolio__menu list">
+            <ul class="hero-portfolio__menu portfolio__filter-list list">
                 <li class="hero-portfolio__menu_item">
                     <button class="hero-portfolio__menu_item_btn" type="button">Все</button>
                 </li>
