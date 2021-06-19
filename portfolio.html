@@ -112,7 +112,7 @@
     </header>
     <!--HERO PORTFOLIO-->
     <section class="portfolio-section section">
-        <div class="container">
+        <div class="portfolio__contenier container">
             <h1 class="visually-hidden">Навигационное меню</h1>
             <ul class="hero-portfolio__menu portfolio__filter-list list">
                 <li class="hero-portfolio__menu_item">
@@ -136,11 +136,30 @@
             <ul class="about-portfolio list">
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
-                        <div class="about-portfolio__menu_link_div"><img class="about-portfolio__menu_link_img"
+                        <div class="about-portfolio__menu_link_div">
+                            <picture class="picture">
+                                <source srcset="./images/portfolio-card/webp/desk-tech.webp 1x, ./images/portfolio-card/webp/desk-tech2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-tech.jpg 1x, ./images/portfolio-card/jpg/desk-tech2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/tablet-tech.webp 1x, ./images/portfolio-card/webp/tablet-tech2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./imagesportfolio-card/jpg/tablet-tech.jpg 1x, ./images/portfolio-card/jpg/tablet-tech2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/mobile-tech.webp 1x, ./images/portfolio-card/webp/mobile-tech2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-tech.jpg 1x, ./images/portfolio-card/jpg/mobile-tech2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images"
                                 src="./images/portfolio1.jpg" alt="Технокряк" width="370" height="294">
+                                </picture>
+                                <div class="product__background">
                             <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании
                                 используют эту платформу для цифрового
                                 шпионажа и атак на защищённые сервера конкурентов.</p>
+                        </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title">Технокряк</h2>
@@ -151,8 +170,29 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio2.jpg"
+                            <picture class="picture">
+                                <source
+                                    srcset="./images/portfolio-card/webp/desk-basketball.webp 1x, ./images/portfolio-card/webp/desk-basketball2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-basketball.jpg 1x, ./images/portfolio-card/jpg/desk-basketball2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source
+                                    srcset="./images/portfolio-card/webp/tablet-basketball.webp 1x, ./images/portfolio-card/webp/tablet-basketball2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source
+                                    srcset="./images/portfolio-card/jpg/tablet-basketball.jpg 1x, ./images/portfolio-card/jpg/tablet-basketball2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source
+                                    srcset="./images/portfolio-card/webp/mobile-basketball.webp 1x, ./images/portfolio-card/webp/mobile-basketball2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source
+                                    srcset="./images/portfolio-card/jpg/mobile-basketball.jpg 1x, ./images/portfolio-card/jpg/mobile-basketball2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio2.jpg"
                                 alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                                </picture>
                             <p class="overlay"></p>
                         </div>
                         <div class="border-portfolio">
@@ -164,9 +204,30 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio3.jpg" alt="Ресторан Seafood"
+                            <picture class="picture">
+                                <source
+                                    srcset="./images/portfolio-card/webp/desk-seafood.webp 1x, ./images/portfolio-card/webp/desk-seafood2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-seafood.jpg 1x, ./images/portfolio-card/jpg/desk-seafood2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source
+                                    srcset="./images/portfolio-card/webp/tablet-seafood.webp 1x, ./images/portfolio-card/webp/tablet-seafood2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/tablet-seafood.jpg 1x, ./images/portfolio-card/jpg/tablet-seafood2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source
+                                    srcset="./images/portfolio-card/webp/mobile-seafood.webp 1x, ./images/portfolio-card/webp/mobile-seafood2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-seafood.jpg 1x, ./images/portfolio-card/jpg/mobile-seafood2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio3.jpg" alt="Ресторан Seafood"
                                 width="370" height="294">
-                            <p class="overlay">.</p>
+                                </picture>
+                                <div class="product__background">
+                            <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title">Ресторан Seafood</h2>
@@ -177,9 +238,30 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio4.jpg" alt="Проект Prime" width="370"
+                            <picture class="picture">
+                            <source
+                                srcset="./images/portfolio-card/webp/desk-headphones.webp 1x, ./images/portfolio-card/webp/desk-headphones2x.webp 2x"" media="
+                                (min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/portfolio-card/jpg/desk-headphones.jpg 1x, ./images/portfolio-card/jpg/desk-headphones2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            
+                            <source
+                                srcset="./imagesportfolio-card/webp/tablet-headphones.webp 1x, ./images/portfolio-card/webp/tablet-headphones2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp">
+                            <source srcset="./images/portfolio-card/jpg/tablet-headphones.jpg 1x, ./images/portfolio-card/jpg/tablet-headphones2x.jpg 2x"
+                                media="(min-width: 768px)">
+                            
+                            <source
+                                srcset="./images/portfolio-card/webp/mobile-headphones.webp 1x, ./images/portfolio-card/webp/mobile-headphones2x.webp 2x"
+                                media="(min-width: 280px)" type="image/webp">
+                            <source srcset="./images/portfolio-card/jpg/mobile-headphones.jpg 1x, ./images/portfolio-card/jpg/mobile-headphones2x.jpg 2x"
+                                media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio4.jpg" alt="Проект Prime" width="370"
                                 height="294">
+                               </picture>
+                            <div class="product__background">
                             <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title">Проект Prime</h2>
@@ -190,9 +272,28 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio5.jpg" alt="Проект Boxes" width="370"
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-card/webp/desk-boxes.webp 1x, ./images/portfolio-card/webp/desk-boxes2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-boxes.jpg 1x, ./images/portfolio-card/jpg/desk-boxes2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/tablet-boxes.webp 1x, ./images/portfolio-card/webp/tablet-boxes2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/tablet-boxes.jpg 1x, ./imagesportfolio-card/jpg/tablet-boxes2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/mobile-boxes.webp 1x, ./images/portfolio-card/webp/mobile-boxes2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-boxes.jpg 1x, ./images/portfolio-card/jpg/mobile-boxes2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio5.jpg" alt="Проект Boxes" width="370"
                                 height="294">
+                                </picture>
+                                <div class="product__background">
                             <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title">Проект Boxes</h2>
@@ -203,9 +304,27 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio6.jpg" alt="Inspiration has no Borders"
+                            <picture>
+                                <source srcset="./images/portfolio-card/webp/desk-mac.webp 1x, ./images/portfolio-card/webp/desk-mac2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-mac.jpg 1x, ./images/portfolio-card/jpg/desk-mac2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/tablet-mac.webp 1x, ./images/portfolio-card/webp/tablet-mac2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/tablet-mac.jpg 1x, ./images/portfolio-card/jpg/tablet-mac2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/mobile-mac.webp 1x, ./images/portfolio-card/webp/mobile-mac2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-mac.jpg 1x, ./images/portfolio-card/jpg/mobile-mac2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio6.jpg" alt="Inspiration has no Borders"
                                 width="370" height="294">
+                                </picture>
+                                <div class="product__background">
                             <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title" lang="en">Inspiration has no Borders</h2>
@@ -216,9 +335,27 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio7.jpg" alt="Издание Limited Edition"
+                            <picture>
+                                <source srcset="./images/portfolio-card/webp/desk-book.webp 1x, ./images/portfolio-card/webp/desk-book2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-book.jpg 1x, ./images/portfolio-card/jpg/desk-book2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/tablet-book.webp 1x, ./images/portfolio-card/webp/tablet-book2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/tablet-book.jpg 1x, ./images/portfolio-card/jpg/tablet-book2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/mobile-book.webp 1x, ./images/portfolio-card/webp/mobile-book2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-book.jpg 1x, ./images/portfolio-card/jpg/mobile-book2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio7.jpg" alt="Издание Limited Edition"
                                 width="370" height="294">
+                                </picture>
+                                <div class="product__background">
                             <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title">Издание Limited Edition</h2>
@@ -229,9 +366,28 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio8.jpg" alt="Проект LAB" width="370"
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-card/webp/desk-label.webp 1x, ./images/portfolio-card/webp/desk-label2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-label.jpg 1x, ./images/portfolio-card/jpg/desk-label2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/tablet-label.webp 1x, ./images/portfolio-card/webp/tablet-label2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/tablet-label.jpg 1x, ./images/portfolio-card/jpg/tablet-label2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source srcset="./images/portfolio-card/webp/mobile-label.webp 1x, ./images/portfolio-card/webp/mobile-label2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-label.jpg 1x, ./images/portfolio-card/jpg/mobile-label2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio8.jpg" alt="Проект LAB" width="370"
                                 height="294">
+                             </picture>
+                            <div class="product__background">
                             <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title">Проект LAB</h2>
@@ -242,9 +398,30 @@
                 <li class="about-portfolio_item">
                     <a href="" class="about-portfolio__menu_item_link link">
                         <div class="about-portfolio__menu_link_div">
-                            <img class="about-portfolio__menu_link_img" src="./images/portfolio9.jpg" alt="Growing Business"
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio-card/webp/desk-mackbook.webp 1x, ./images/portfolio-card/webp/desk-mackbook2x.webp 2x"" media="
+                                    (min-width: 1200px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/desk-mackbook.jpg 1x, ./images/portfolio-card/jpg/desk-mackbook2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                            
+                                <source
+                                    srcset="./images/portfolio-card/webp/tablet-mackbook.webp 1x, ./images/portfolio-card/webp/tablet-mackbook2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/tablet-mackbook.jpg 1x, ./images/portfolio-card/jpg/tablet-mackbook2x.jpg 2x"
+                                    media="(min-width: 768px)">
+                            
+                                <source
+                                    srcset="./images/portfolio-card/webp/mobile-mackbook.webp 1x, ./images/portfolio-card/webp/mobile-mackbook2x.webp 2x"
+                                    media="(min-width: 280px)" type="image/webp">
+                                <source srcset="./images/portfolio-card/jpg/mobile-mackbook.jpg 1x, ./images/portfolio-card/jpg/mobile-mackbook2x.jpg 2x"
+                                    media="(min-width: 280x)">
+                            <img class="about-portfolio__menu_link_images" src="./images/portfolio9.jpg" alt="Growing Business"
                                 width="370" height="294">
+                            </picture>
+                            <div class="product__background">
                             <p class="overlay"></p>
+                            </div>
                         </div>
                         <div class="border-portfolio">
                             <h2 class="about-portfolio__title" lang="en">Growing Business</h2>
