@@ -68,15 +68,16 @@
   margin-top: 79px;
   border-radius: 2px;
 }
-@media screen and(max-width:1200px) {
-}
+
 @media screen and(min-width:767px) {
   .header {
     padding-top: 24px;
     padding-bottom: 25px;
     background-color: var(--main-background-color);
     border-bottom: 1px solid var(--header-border);
-
+    @media screen and(min-width:1200px) {
+      padding-bottom: 25px;
+    }
     &-container {
       display: flex;
       align-items: center;
