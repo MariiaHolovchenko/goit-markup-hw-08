@@ -1387,8 +1387,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .customers__list_link {
-    width: 210px;
-    height: 92px;
+    max-width: 210px;
+    max-height: 92px;
   }
 }
 
