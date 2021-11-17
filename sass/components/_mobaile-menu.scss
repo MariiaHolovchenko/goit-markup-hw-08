@@ -8,6 +8,7 @@
     max-width: 767px;
     height: 100%;
     background-color: white;
+    overflow: auto;
 
     position: 0;
     visibility: hidden;
@@ -76,6 +77,9 @@
     letter-spacing: 0.02em;
     color: #2196f3;
   }
+  .mobile-tel {
+    margin-bottom: 32px;
+  }
   .mobile-container_contact_item-mail {
     font-family: Roboto;
     font-style: normal;
@@ -115,10 +119,19 @@
     position: 1;
     visibility: visible;
     pointer-events: auto;
+    z-index: 9999;
   }
 }
 @media screen and (min-width: 767px) {
   .mobile-menu {
     display: none;
   }
+}
+.contact-name {
+  font-family: var(--main-font);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
 }
