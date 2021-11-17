@@ -52,3 +52,9 @@
     filter: drop-shadow(0px 4px 4px var(--modal-btn-shadow));
   }
 }
+
+.portfolio-section {
+  @media screen and(min-width:1199px) {
+    padding-top: 0;
+  }
+}

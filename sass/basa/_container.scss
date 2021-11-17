@@ -7,21 +7,23 @@
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 767px;
+    max-width: 480px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
-    min-width: 768px;
+    width: 768px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    padding-left: 115px;
-    padding-right: 115px;
-    min-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }

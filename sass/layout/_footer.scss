@@ -13,14 +13,18 @@
   align-items: center;
   justify-content: space-around;
 
-  @media screen and(min-width: 768px) and(max-widht:1199px) {
-    flex-wrap: wrap;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 65px;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    justify-content: space-around;
   }
   @media screen and(min-width:1200px) {
     flex-direction: row;
     align-items: start;
+    padding-bottom: 0;
   }
 }
 
@@ -94,6 +98,7 @@
 
   @media screen and(min-width: 767px) and(max-width: 1199px) {
     margin-right: auto;
+    margin-top: 0;
     flex-direction: row;
   }
   @media screen and(min-width: 1200px) {
